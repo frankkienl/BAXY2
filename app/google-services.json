@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "429163944747",
+    "firebase_url": "https://baxy2-1ee00.firebaseio.com",
+    "project_id": "baxy2-1ee00",
+    "storage_bucket": "baxy2-1ee00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429163944747:android:cdfb34cbf5b00b71",
+        "android_client_info": {
+          "package_name": "nl.frankkie.baxy2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429163944747-cubmf0cm8efnch400n8g9f9ihtu62d5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nl.frankkie.baxy2",
+            "certificate_hash": "a719ed65592c96021f92939f2a03f3c9a1467f38"
+          }
+        },
+        {
+          "client_id": "429163944747-8skkflountvidiufa086d2a26ghnopr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAljZ2tmUnow_TLimxhB1GXABgLsS8g78M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429163944747-8skkflountvidiufa086d2a26ghnopr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

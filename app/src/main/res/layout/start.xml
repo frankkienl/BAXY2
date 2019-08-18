@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2013. FrankkieNL
+  -->
+
+<!-- Layout for the First screen android:background="@drawable/bg_color" //-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/layout_background"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/main_container_of_scrollview"
+            android:orientation="vertical"
+            android:layout_margin="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:src="@drawable/logo_default_old"
+                    android:layout_margin="10dp"
+                    android:scaleType="matrix"
+                    android:id="@+id/logo"
+                    android:adjustViewBounds="false"
+                    android:layout_marginRight="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"/>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/textback_small"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="20dp">
+
+                    <ImageView
+                            android:src="@drawable/btn_ouya_o"
+                            android:scaleType="fitStart"
+                            android:adjustViewBounds="true"
+                            android:layout_gravity="bottom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"/>
+
+                    <TextView
+                            android:text="OK"
+                            android:gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#FFF"
+                            android:textSize="20sp"
+                            android:layout_height="match_parent"
+                            android:layout_width="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/textback_small"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="20dp">
+
+                    <ImageView
+                            android:src="@drawable/btn_ouya_y"
+                            android:scaleType="fitStart"
+                            android:adjustViewBounds="true"
+                            android:layout_gravity="bottom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"/>
+
+                    <TextView
+                            android:text="Turn Off"
+                            android:gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#FFF"
+                            android:textSize="20sp"
+                            android:layout_height="match_parent"
+                            android:layout_width="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                //-->
+
+        <LinearLayout
+                android:id="@+id/start_container"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                <!-- spacer //-->
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"/>
+
+                <Button
+                        android:text="OUYA Games"
+                        android:id="@+id/start_games"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <Button
+                        android:text="OUYA Apps"
+                        android:id="@+id/start_apps"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <Button
+                        android:text="Favorites"
+                        android:id="@+id/start_favorites"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <Button
+                        android:text="Android Apps"
+                        android:id="@+id/start_android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <Button
+                        android:text="All Apps"
+                        android:id="@+id/start_all"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <Button
+                        android:text="Discover"
+                        android:id="@+id/start_discover"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <Button
+                        android:text="Settings"
+                        android:id="@+id/start_settings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                <!-- spacer
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"/>
+                //-->
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/widgets_container">
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/clock_container"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <AnalogClock
+                            android:id="@+id/analog_clock"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            />
+
+                    <DigitalClock
+                            android:id="@+id/digital_clock"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            style="@style/ShadowText"
+                            android:visibility="gone"
+                            android:textSize="42sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--
+        </ScrollView>
+        //-->
+    </LinearLayout>
+</LinearLayout>
