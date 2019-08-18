@@ -1,15 +1,9 @@
-Abandonware, yes it still is Abandonware. 1 update does not mean re-opend.
-
-
-Alternative OUYA Launcher by FrankkieNL
+BAXY2 - Alternative OUYA Launcher by FrankkieNL
 ---------------------------------------
 
-The name of this Launcher: BAXY !
 
 ![Logo](https://raw.github.com/frankkienl/OuyaLauncherFrankkieNL/master/FrankkieOuyaLauncher/src/main/res/drawable/logo_default.png "Logo")
 
-
-Download APK: https://raw.github.com/frankkienl/BaxyLauncherOUYA/master/BaxyLauncherOUYA-release.apk
 
 Official Forum Thread:   
 http://ouyaforum.com/showthread.php?4436-BAXY-Custom-Launcher
